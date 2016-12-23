@@ -1,0 +1,38 @@
+// ----
+// Sass (v3.4.7)
+// Compass (v1.0.1)
+// ----
+
+
+// file: `/styles/templates/_plp.scss`
+// ---
+
+.t-plp {
+  
+  // Note!
+  //
+  // This example code assume that the `.t-plp` class is
+  // on body. That means the html is `<body class="t-plp">`
+  
+}
+
+.t-plp__main {
+  color: $primary-color;
+}
+  
+.t-plp__categories {
+  color: green;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.t-plp__product-list {
+  color: blue;
+}
+
+.t-plp__product {
+  color: block;
+}
+
+.t-plp__product-description {
+  color: black;
+}
