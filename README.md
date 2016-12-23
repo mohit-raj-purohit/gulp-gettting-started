@@ -25,4 +25,4 @@ npm install
 
 Tested successfully on `master` branch :heart_eyes:
 
-### Other commands coming soon....
+### :sparkles: :heart: Other commands coming soon... :heart: :sparkles:
