@@ -4,10 +4,14 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     browserSync = require('browser-sync'),
     please = require('gulp-pleeease'),
+    sassLint = require('gulp-sass-lint'),
     reload = browserSync.reload;
 
 gulp.task('styles', function() {
   return gulp.src(config.paths.css.all)
+    .pipe(sassLint())
+    .pipe(sassLint.format())
+    .pipe(sassLint.failOnError())
     .pipe(sass())
     .pipe(please({
       "autoprefixer": true,

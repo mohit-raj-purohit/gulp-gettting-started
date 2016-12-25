@@ -5,6 +5,9 @@ module.exports = {
       entry: './styles/main.scss',
       all: './styles/**/*.scss',
       dest: './css'
+    },
+    assets: {
+      css: './css'
     }
   },
   names: {

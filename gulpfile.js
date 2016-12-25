@@ -1,7 +1,8 @@
 'use strict';
 
 // Module to require whole directories
-var requireDir = require('require-dir');
+var requireDir = require('require-dir'),
+	gulp = require('gulp');
 
 // Pulling in all tasks from the tasks folder
 requireDir('./gulp/tasks', { recurse: true });
